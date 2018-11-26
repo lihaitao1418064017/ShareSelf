@@ -21,8 +21,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 
 /**
  * 美女图
- * @author tanyaowu 
- * 2017年5月14日 上午9:48:03
+ * @author
+ *
  */
 public class ImgMnService {
 	private static Logger log = LoggerFactory.getLogger(ImgMnService.class);
@@ -36,7 +36,7 @@ public class ImgMnService {
 	public static final int maxSize = 100000;
 	/**
 	 * 
-	 * @author: tanyaowu
+	 * @author:
 	 */
 	public ImgMnService() {
 
@@ -257,7 +257,7 @@ public class ImgMnService {
 
 	/**
 	 * @param args
-	 * @author: tanyaowu
+	 * @author:
 	 */
 	public static void main(String[] args) {
 		start();

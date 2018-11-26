@@ -16,7 +16,7 @@ import org.jim.server.command.handler.processor.handshake.WsHandshakeProcessor;
 import org.tio.core.ChannelContext;
 
 /**
- * @author WChao
+ *
  *
  */
 public class DemoWsHandshakeProcessor extends WsHandshakeProcessor {

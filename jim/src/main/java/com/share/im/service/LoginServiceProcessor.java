@@ -24,7 +24,7 @@ import org.tio.core.ChannelContext;
 import java.util.*;
 
 /**
- * @author WChao
+ * @author
  *
  */
 public class LoginServiceProcessor implements LoginCmdProcessor {
@@ -46,7 +46,7 @@ public class LoginServiceProcessor implements LoginCmdProcessor {
 	 * @param loginname
 	 * @param password
 	 * @return
-	 * @author: WChao
+	 * @author:
 	 */
 	public User getUser(String loginname, String password) {
 		String text = loginname+password;
@@ -60,7 +60,7 @@ public class LoginServiceProcessor implements LoginCmdProcessor {
 	 * 根据token获取用户信息
 	 * @param token
 	 * @return
-	 * @author: WChao
+	 * @author:
 	 */
 	public User getUser(String token) {
 		//demo中用map，生产环境需要用cache
