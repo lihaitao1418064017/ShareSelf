@@ -1,8 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>jim-server-demo</artifactId>
-    <packaging>jar</packaging>
-    <name>jim-server-demo</name>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <name>jim</name>
     <parent>
         <groupId>org.j-im</groupId>
         <artifactId>jim-parent</artifactId>
@@ -13,7 +15,11 @@
             <groupId>org.j-im</groupId>
             <artifactId>jim-server</artifactId>
         </dependency>
-       
+        <dependency>
+            <groupId>com.share-self</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0</version>
+        </dependency>
 
     </dependencies>
     <build>

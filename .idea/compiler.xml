@@ -8,10 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="admin" />
-        <module name="auth" />
-        <module name="core" />
-        <module name="jim" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin" target="1.5" />
+      <module name="auth" target="1.5" />
+      <module name="core" target="1.8" />
+      <module name="jim" target="1.8" />
+      <module name="share" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

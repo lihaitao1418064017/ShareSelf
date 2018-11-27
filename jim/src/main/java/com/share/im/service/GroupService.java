@@ -1,0 +1,13 @@
+package com.share.im.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.share.im.domain.Group;
+
+/**
+ * Description:
+ *
+ * @Author lht
+ * @Date 2018/11/27 下午10:09
+ **/
+public interface GroupService extends IService<Group> {
+}
